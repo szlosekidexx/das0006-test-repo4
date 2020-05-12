@@ -1,0 +1,22 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+```{r}
+
+data <- iris 
+
+head(data)
+```
+
+```{r}
+
+readr::write_rds(data,here::here("001_data-pull_output_001.rds"))
+
+here::here()
+
+```
+
